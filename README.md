@@ -42,3 +42,6 @@ https://asciinema.org/connect/f3acafc7-96c0-4792-95a1-df23d2636518
 
 #Игра "Калькулятор"
 https://asciinema.org/connect/f3acafc7-96c0-4792-95a1-df23d2636518
+
+#Игра "Арифметическая прогрессия"
+https://asciinema.org/connect/f3acafc7-96c0-4792-95a1-df23d2636518
