@@ -1,6 +1,6 @@
 [project]
 name = "hexlet-code"
-version = "0.1.6"
+version = "0.1.7"
 description = "Brain Games"
 readme = "README.md"
 authors = [

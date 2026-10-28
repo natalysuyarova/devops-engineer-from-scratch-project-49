@@ -13,17 +13,26 @@
 
 ## Установка
 
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
+Требуется Python 3.10+ и пакетный менеджер uv
 
-```bash
-git clone https://github.com/natalysuyarova/devops-engineer-from-scratch-project-49.git
-cd devops-engineer-from-scratch-project-49
-```
+# Клонируйте репозиторий и перейдите в него
+git clone git@github.com:<ваш-логин>/<ваш-репозиторий>.git
+cd <ваш-репозиторий>
 
+# Установите зависимости проекта
+make install
+
+#Затем установите пакет в систему, чтобы игры были доступны как команды:
+
+make build
+make package-install
 ## Использование
-
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
-
+После установки любую игру можно запустить по имени: 
+`brain-even`,
+ `brain-calc`,
+ `brain-gcd`,
+ `brain-progression`,
+ `brain-prime`.
 ---
 
 <details>
@@ -33,21 +42,20 @@ cd devops-engineer-from-scratch-project-49
 
 </details>
 
-## О Хекслете
+## Демонстрация игр
 
-[Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
+#Игра "Проверка на чётность" - brain-even
 
-##Игра "Проверка на чётность"
-https://asciinema.org/connect/f3acafc7-96c0-4792-95a1-df23d2636518
+https://asciinema.org/a/kyxRvyN3pVRTqjGp
 
-#Игра "Калькулятор"
-https://asciinema.org/connect/f3acafc7-96c0-4792-95a1-df23d2636518
+#Игра "Калькулятор" - brain-calc
+https://asciinema.org/a/ZzbetWPMk9IvIOBE
 
-#Игра «НОД»
-https://asciinema.org/connect/f3acafc7-96c0-4792-95a1-df23d2636518
+#Игра «НОД» - brain-gcd
+https://asciinema.org/a/pEjUvi4IM3iW0ALg
 
-#Игра "Арифметическая прогрессия"
-https://asciinema.org/connect/f3acafc7-96c0-4792-95a1-df23d2636518
+#Игра "Арифметическая прогрессия" - brain-progression
+https://asciinema.org/a/7wx3x4upypLu7rSb
 
-#Игра «Простое ли число?»
-https://asciinema.org/connect/f3acafc7-96c0-4792-95a1-df23d2636518
+#Игра «Простое ли число?» - brain-prime
+https://asciinema.org/a/XmvKTNDN863U1KBE
