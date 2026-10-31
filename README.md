@@ -33,7 +33,7 @@ make build
 make package-install
 ```
 # 4. Демонстрация процксса сборки и установки
-<script src="https://asciinema.org/a/o6EKDFSAxlMvpcKY.js" id="asciicast-o6EKDFSAxlMvpcKY" async="true"></script>
+[![asciicast](https://asciinema.org/a/o6EKDFSAxlMvpcKY.svg)](https://asciinema.org/a/o6EKDFSAxlMvpcKY)
 
 ## Использование
 После установки любую игру можно запустить по имени: 
@@ -47,17 +47,17 @@ make package-install
 ## Демонстрация игр
 
 #Игра "Проверка на чётность" - brain-even
-
-<script src="https://asciinema.org/a/kyxRvyN3pVRTqjGp.js" id="asciicast-kyxRvyN3pVRTqjGp" async="true"></script>
+[![asciicast](https://asciinema.org/a/kyxRvyN3pVRTqjGp.svg)](https://asciinema.org/a/kyxRvyN3pVRTqjGp)
 
 #Игра "Калькулятор" - brain-calc
-<script src="https://asciinema.org/a/Un8SXY56sVOBAdAH.js" id="asciicast-Un8SXY56sVOBAdAH" async="true"></script>
+[![asciicast](https://asciinema.org/a/Un8SXY56sVOBAdAH.svg)](https://asciinema.org/a/Un8SXY56sVOBAdAH)
 
 #Игра «НОД» - brain-gcd
-<script src="https://asciinema.org/a/y3NO1cmH4md7UhYh.js" id="asciicast-y3NO1cmH4md7UhYh" async="true"></script>
+[![asciicast](https://asciinema.org/a/y3NO1cmH4md7UhYh.svg)](https://asciinema.org/a/y3NO1cmH4md7UhYh)
 
 #Игра "Арифметическая прогрессия" - brain-progression
-<script src="https://asciinema.org/a/0ovn2tp2s4BlGZBG.js" id="asciicast-0ovn2tp2s4BlGZBG" async="true"></script>
+[![asciicast](https://asciinema.org/a/0ovn2tp2s4BlGZBG.svg)](https://asciinema.org/a/0ovn2tp2s4BlGZBG)
 
 #Игра «Простое ли число?» - brain-prime
-<script src="https://asciinema.org/a/XmvKTNDN863U1KBE.js" id="asciicast-XmvKTNDN863U1KBE" async="true"></script>
+[![asciicast](https://asciinema.org/a/XmvKTNDN863U1KBE.svg)](https://asciinema.org/a/XmvKTNDN863U1KBE)
+
