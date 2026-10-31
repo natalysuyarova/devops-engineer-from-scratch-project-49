@@ -1,11 +1,16 @@
 # Игры разума (Python)
 
-[![hexlet-check](https://github.com/natalysuyarova/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/natalysuyarova/devops-engineer-from-scratch-project-49/actions)
+«Brain Games» — это набор из пяти консольных игр для тренировки устного счёта и логики.
+Каждая игра задаёт три вопроса подряд. Чтобы победить, нужно ответить правильно на все три;
+при первой же ошибке игра завершается и показывает правильный ответ.
 
-Погрузитесь в экосистему Python и научитесь настраивать рабочее окружение. Подружитесь с менеджером зависимостей и линтером. Поймете, чем git отличается от GitHub, поработаете с внешними репозиториями. Получите опыт построения архитектуры полноценного приложения и написания чистого кода.
+В проект входят:
 
-Учебный проект Хекслета: https://ru.hexlet.io/programs/devops-engineer-from-scratch
-Как это должно работать: https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7
+- **brain-even** — проверка числа на чётность;
+- **brain-calc** — вычисление значения арифметического выражения (`+`, `-`, `*`);
+- **brain-gcd** — поиск наибольшего общего делителя двух чисел;
+- **brain-progression** — поиск пропущенного числа в арифметической прогрессии;
+- **brain-prime** — проверка, является ли число простым.
 
 ## Стек
 
@@ -15,17 +20,21 @@
 
 Требуется Python 3.10+ и пакетный менеджер uv
 
-# Клонируйте репозиторий и перейдите в него
+```bash
+# 1. Клонируйте репозиторий
 git clone git@github.com:<ваш-логин>/<ваш-репозиторий>.git
 cd <ваш-репозиторий>
 
-# Установите зависимости проекта
+# 2. Установите зависимости
 make install
 
-#Затем установите пакет в систему, чтобы игры были доступны как команды:
-
+# 3. Соберите и установите пакет в систему
 make build
 make package-install
+```
+# 4. Демонстрация процксса сборки и установки
+<script src="https://asciinema.org/a/o6EKDFSAxlMvpcKY.js" id="asciicast-o6EKDFSAxlMvpcKY" async="true"></script>
+
 ## Использование
 После установки любую игру можно запустить по имени: 
 `brain-even`,
@@ -35,27 +44,20 @@ make package-install
  `brain-prime`.
 ---
 
-<details>
-<summary>Автоматические тесты Хекслета</summary>
-
-Тесты запускаются на каждый коммит. За запуск отвечает файл `.github/workflows/hexlet-check.yml` — не удаляйте и не переименовывайте ни его, ни репозиторий.
-
-</details>
-
 ## Демонстрация игр
 
 #Игра "Проверка на чётность" - brain-even
 
-https://asciinema.org/a/kyxRvyN3pVRTqjGp
+<script src="https://asciinema.org/a/kyxRvyN3pVRTqjGp.js" id="asciicast-kyxRvyN3pVRTqjGp" async="true"></script>
 
 #Игра "Калькулятор" - brain-calc
-https://asciinema.org/a/ZzbetWPMk9IvIOBE
+<script src="https://asciinema.org/a/Un8SXY56sVOBAdAH.js" id="asciicast-Un8SXY56sVOBAdAH" async="true"></script>
 
 #Игра «НОД» - brain-gcd
-https://asciinema.org/a/pEjUvi4IM3iW0ALg
+<script src="https://asciinema.org/a/y3NO1cmH4md7UhYh.js" id="asciicast-y3NO1cmH4md7UhYh" async="true"></script>
 
 #Игра "Арифметическая прогрессия" - brain-progression
-https://asciinema.org/a/7wx3x4upypLu7rSb
+<script src="https://asciinema.org/a/0ovn2tp2s4BlGZBG.js" id="asciicast-0ovn2tp2s4BlGZBG" async="true"></script>
 
 #Игра «Простое ли число?» - brain-prime
-https://asciinema.org/a/XmvKTNDN863U1KBE
+<script src="https://asciinema.org/a/XmvKTNDN863U1KBE.js" id="asciicast-XmvKTNDN863U1KBE" async="true"></script>
