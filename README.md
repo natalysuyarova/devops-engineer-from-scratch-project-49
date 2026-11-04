@@ -33,7 +33,10 @@ make build
 make package-install
 
 # 4. Демонстрация процксса сборки и установки
-[![asciicast](https://asciinema.org/a/o6EKDFSAxlMvpcKY.svg)](https://asciinema.org/a/o6EKDFSAxlMvpcKY)
+#[![asciicast](https://asciinema.org/a/o6EKDFSAxlMvpcKY.svg)](https://asciinema.org/a/o6EKDFSAxlMvpcKY)
+
+<a href="https://asciinema.org/a/o6EKDFSAxlMvpcKY" target="_blank"><img src="https://asciinema.org/a/o6EKDFSAxlMvpcKY.svg" /></a>
+
 ```
 
 ## Использование
