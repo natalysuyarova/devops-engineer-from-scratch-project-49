@@ -22,8 +22,8 @@
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone git@github.com:<ваш-логин>/<ваш-репозиторий>.git
-cd <ваш-репозиторий>
+git clone git@github.com:natalysuyarova/devops-engineer-from-scratch-project-49.git
+cd /devops-engineer-from-scratch-project-49.git
 
 # 2. Установите зависимости
 make install
@@ -31,9 +31,10 @@ make install
 # 3. Соберите и установите пакет в систему
 make build
 make package-install
-```
+
 # 4. Демонстрация процксса сборки и установки
 [![asciicast](https://asciinema.org/a/o6EKDFSAxlMvpcKY.svg)](https://asciinema.org/a/o6EKDFSAxlMvpcKY)
+```
 
 ## Использование
 После установки любую игру можно запустить по имени: 
